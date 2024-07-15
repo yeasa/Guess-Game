@@ -9,9 +9,9 @@
 <br><br>
 <b>Technologies Used</b>
 <ul>
-  <li>**HTML**: For structuring the game interface.</li>
-  <li>**CSS**: For styling the game.</li>
-  <li>**JavaScript**: For game logic and interactivity.</li>
+  <li>HTML: For structuring the game interface.</li>
+  <li>CSS: For styling the game.</li>
+  <li>JavaScript: For game logic and interactivity.</li>
 </ul>
 "Guess the Number" is a simple web-based game where the player tries to guess a randomly generated <br>number between 1 and 20 within 12 attempts. The game provides feedback on whether the guess is  <br>too high or too low, and keeps track of the number of attempts made.  <br>If the player guesses the number correctly within the allowed attempts, they win; otherwise, they lose.
 </p>
