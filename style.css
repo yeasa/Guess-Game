@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(31,31,31);
+    color: aliceblue;
+    font-family: "Press Start 2P";
+    text-align: center;
+}
+
+button{
+    color: #000;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 2% ;
+    border-style: none;
+    cursor: pointer;
+}
+
+#header{
+    padding: 7.5% 10%;
+}
+
+.again{
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    
+}
+
+.between{
+    position: absolute;
+    top: 4%;
+    right: 2%;
+}
+
+.number{
+    color: rgb(31,31,31);
+    background-color: aliceblue;
+    width: 80px;
+    height: 80px;
+    padding: 30px;
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    top: 210px;
+
+
+}
+
+
+/* bar */
+.bar{
+    background-color: aliceblue;
+    height: 8px;
+}
+
+
+
+/* main */
+.main{
+    padding: 10% 14% 3%; 
+}
+
+.input-box{
+    border: 2px solid aliceblue;
+    color: aliceblue;
+    background-color: rgb(31,31,31);
+    padding: 10px;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    
+}
+
+#footer{
+    color: rgb(178, 187, 196);
+    font-size: 10px;
+    font-weight: 10;
+}
+
+@media screen and (max-width: 1140px){
+    #header{
+        padding: 20%  14% 8%;
+        height: 250px;
+    }
+}
+
+
+/* win color */
+.win{
+    background-color: rgb(53, 153, 53);
+}
+/* loose color */
+.loose{
+    background-color: rgb(158, 14, 14);
+}
